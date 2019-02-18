@@ -1,0 +1,26 @@
+{
+  "name": "react-native-custom-stepper",
+  "version": "1.0.0",
+  "description": "A customizable React Native number stepper component.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jad Ghadry",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadghadry/react-native-custom-stepper.git"
+  },
+  "homepage": "https://github.com/jadghadry/react-native-custom-stepper#README",
+  "keywords": [
+    "android",
+    "component",
+    "cross-platform",
+    "ios",
+    "number",
+    "react-native",
+    "react-native-component",
+    "stepper"
+  ]
+}
