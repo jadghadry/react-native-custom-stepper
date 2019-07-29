@@ -27,6 +27,7 @@ $ npm install react-native-custom-stepper --save
 | `buttonsWidth`           | `number`  | `50`      | The width applied to the stepper buttons                     |
 | `decrementButtonText`    | `string`  | `-`       | The stepper's decrement button text                          |
 | `incrementButtonText`    | `string`  | `+`       | The stepper's increment button text                          |
+| `initialValue` | `number`  | `0` | The initial value of the stepper |
 | `labelBackgroundColor`   | `string`  | `#AED581` | The background color applied to the stepper label            |
 | `labelFontColor`         | `string`  | `#FFFFFF` | The font color applied to the stepper label                  |
 | `labelFontSize`          | `number`  | `24`      | The font size applied to the stepper label                   |

@@ -1,6 +1,6 @@
 {
   "name": "react-native-custom-stepper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable React Native number stepper component.",
   "main": "build/index.js",
   "scripts": {

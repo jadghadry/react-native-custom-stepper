@@ -23,11 +23,23 @@ NumberStepper Component.
 
 export default class NumberStepper extends React.Component {
 
-  state = {
-    value: this.props.minValue
+  /*
+  Normalizes the initial value that is sent through the component props.
+  */
+
+  _effectiveInitialValue = () => {
+    var { initialValue, minValue, maxValue} = this.props
+    return Math.min(Math.max(initialValue, minValue), maxValue)
   }
 
 
+
+  state = {
+    value: this._effectiveInitialValue()
+  }
+
+
+  
   /*
   Decrements the value of the number stepper. If autoRepeat is true and the value is currently
   equal to the minValue, then loop back to the maxValue.
@@ -124,6 +136,8 @@ NumberStepper.defaultProps = {
 
   decrementButtonText: "-",
   incrementButtonText: "+",
+
+  initialValue: 0,
 
   labelBackgroundColor: color.lightGreen,
   labelFontColor: color.white,
